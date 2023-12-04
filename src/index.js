@@ -112,7 +112,7 @@ $(".hamburger-icon").on("click", () => {
 });
 // MOBILE MENU
 function getData() {
-  $.get(`/dist/data/data.json`, (data) => {
+  $.get(`dist/data/data.json`, (data) => {
     productInfo = data;
     console.log(productInfo);
     loadItems();
