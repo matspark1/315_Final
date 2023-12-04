@@ -17,7 +17,6 @@ const firebaseConfig = {
   measurementId: "G-K3YTHX4G28",
 };
 
-// Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 
@@ -128,7 +127,7 @@ var cartCount = 0;
 var productInfo = {};
 
 $(".checkout-button").on("click", function () {
-  productInfo.Cart = []; // Clear the cart
+  productInfo.Cart = [];
   cartCount = 0;
   updateCartCount();
 });
