@@ -1,0 +1,92 @@
+.footer-holder {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.base-footer {
+  background-color: $darkbrown;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  max-width: 1200px;
+  height: 52px;
+  .footer-desc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    padding-left: 40px;
+    p {
+      margin-top: 12px;
+    }
+  }
+  .socials {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 340px;
+    padding-right: 130px;
+    p {
+      margin-top: 12px;
+      padding-left: 20px;
+    }
+  }
+}
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  .col1,
+  .col2,
+  .col3,
+  .col4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 440px;
+    margin-top: 30px;
+    img {
+      width: 180px;
+    }
+    p {
+      font-size: 20px;
+    }
+    a {
+      text-decoration: none;
+      color: #000;
+      margin-bottom: 20px;
+      &:hover {
+        text-decoration: underline;
+        color: #2a2a2a;
+      }
+    }
+  }
+  .footer-shop {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .footer-orders {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .col4 {
+    span {
+      width: 300px;
+      margin-bottom: 30px;
+    }
+    input {
+      border: 3px solid #bbbbbb;
+      height: 50px;
+      font-family: $MarkReg;
+    }
+    .emailsignup {
+      border: 3px solid $yellow;
+      background-color: #fff;
+      margin-left: -10px;
+      padding: 0 20px;
+      font-family: $MarkReg;
+    }
+  }
+}

@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mobile-overflow {
+  overflow: hidden;
+}
+
+html,
+body {
+  font-family: $MarkReg;
+  font-size: 16px;
+  height: 100%;
+  width: 100vw;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: "MarkOT-Bold";
+  src: url(../css/fonts/MarkOT-Bold-normal-400-100.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "MarkOT-Book";
+  src: url(../css/fonts/MarkOT-Book-normal-400-100.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "MarkOT-Italic";
+  src: url(../css/fonts/MarkOT-Italic-normal-400-100.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "MarkOT-Light";
+  src: url(../css/fonts/MarkOT-Light-normal-400-100.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "MarkOT-Medium";
+  src: url(../css/fonts/MarkOT-Medium-normal-400-100.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "MarkOT-Reg";
+  src: url(../css/fonts/MarkOT-Regular-normal-400-100.ttf) format("truetype");
+}
